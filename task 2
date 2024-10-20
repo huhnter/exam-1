@@ -1,0 +1,11 @@
+FUNCTION factorial(n):
+    IF n < 0 THEN
+        RETURN "Undefined for negative numbers"
+    ELSE IF n = 0 THEN
+        RETURN 1
+    ELSE
+        result = 1
+        FOR i FROM 1 TO n DO
+            result = result * i
+        RETURN result
+END FUNCTION
